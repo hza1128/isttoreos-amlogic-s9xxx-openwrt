@@ -36,7 +36,7 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
+
 
 # 设置默认主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
