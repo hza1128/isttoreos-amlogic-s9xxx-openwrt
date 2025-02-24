@@ -11,6 +11,7 @@
 
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
+sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 echo >> feeds.conf.default
